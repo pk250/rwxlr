@@ -1,0 +1,25 @@
+<!--pages/templates/template.wxml-->
+<view class='tempbody' style='height:{{pageHight}}px'>
+      <form class='tempform' bindsubmit='formSubmit' style='height:100%'>
+            <view style='height:{{pageHight/10}}px;display:flex'>
+                  标题:
+                  <input class='title' type='text' name='title'></input>
+            </view>
+            <view style='height:{{pageHight/10}}px;display:flex'>
+                  价格:
+                  <input class='valueOf' type='text' name='valueOf'></input>
+            </view>
+            <view style='height:{{pageHight/10*2.8}}px;display:flex'>
+                  描述:
+                  <textarea class='conn' maxlength='140' name='conn'></textarea>
+            </view>
+            <view style='height:{{pageHight/10}}px;display:flex;border: 4px solid red;'>
+
+            </view>
+            <view style='height:{{pageHight/10}}px;display:flex;border: 4px solid red;'></view>
+            <view style='height:{{pageHight/10}}px;display:flex;border: 4px solid red;'></view>
+            <view style='height:{{pageHight/10}}px'>
+                  <button class='bsubmit' form-type='submit'>提交</button>
+            </view>
+      </form>
+</view>
